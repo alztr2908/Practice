@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  background-color: lawngreen;
+}
+
+.menu {
+  padding: 1.5em 0;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 1em;;
+}
+
+section h2{
+  padding-left: .5em;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+#item-list {
+  margin-left: -3.75%;
+}
+
+.item{
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 1em 1.5em;
+  border: 1px solid black;
+  margin: 0 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-items {
+  width: 500px;
+  padding: .5em;
+  font-size: 1rem;
+}
+
+.new-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: .5em;
+  font-size: .9rem;
+}
+
+#new-items {
+  font-size: 1rem;
+}
+
+.new-btn:active {
+  background-color: rgb(48, 42, 42);
+}
+
+.delete {
+  outline: none;
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 1em 1em;
+  cursor: pointer;
+}
+
+.delete:active {
+  background-color: rgb(196, 45, 45);
+}
+
+#new-items {
+  padding: .8em;
+}
+
+section form {
+  margin-left: 1.5em;
+}
+
+#willDisappear {
+  text-align: center;
+  color: rgb(156, 148, 148);
+  opacity: .7;
+}

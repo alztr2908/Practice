@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>DOM Item Lister</title>
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <h1 class='title'>Item Lister</h1>
+      <form action="">
+        <input type="text" id='search-items' placeholder="Search Items...">
+      </form>
+    </div>
+  </header>
+
+  <section>
+    <h2 class='title'>Add Items</h2>
+    <form id='addForm' action="">
+      <input type="text" id='new-items'>
+      <input type="submit" class='new-btn 'value="Submit">
+    </form>
+    <h2 class='title'>Items</h2>
+    <ul id='item-list'>
+    </ul>
+    <h1 id='willDisappear'>Insert Text Here</h1>
+  </section>
+  
+  <script src="app.js"></script>
+</body>
+</html>
